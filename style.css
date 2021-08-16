@@ -1,0 +1,25 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #eb4d4b;
+    text-align: center;
+    font-family: cursive;
+}
+
+.clock {
+    font-size: 80px;
+}
+
+#date {
+    margin-top: 15px;
+    font-size: 20px;
+}
